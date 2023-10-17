@@ -38,6 +38,8 @@ public class Robot extends TimedRobot {
       SmartDashboard.putNumber("TX", limelight.getTX());
       SmartDashboard.putNumber("TY", limelight.getTY());
       SmartDashboard.putNumber("Target ID", limelight.getTagID());  
+      SmartDashboard.putBoolean("Is on blue side", limelight.onBlueSide());
+      SmartDashboard.putBoolean("Is in community", limelight.inCommunity());
     }
   }
 
